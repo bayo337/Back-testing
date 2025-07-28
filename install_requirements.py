@@ -39,15 +39,8 @@ def install_requirements():
         return False
     
     return run_command(
-        f"{sys.executable} -m pip install -r requirements.txt",
+        f"{sys.executable} -m pip install -r requirements.txt --quiet",
         "Installing Python requirements"
-    )
-
-def upgrade_pip():
-    """Upgrade pip to the latest version."""
-    return run_command(
-        f"{sys.executable} -m pip install --upgrade pip",
-        "Upgrading pip"
     )
 
 def create_directories():
@@ -85,9 +78,6 @@ def main():
     # Check Python version
     if not check_python_version():
         sys.exit(1)
-    
-    # Upgrade pip
-    upgrade_pip()
     
     # Install requirements
     if not install_requirements():
