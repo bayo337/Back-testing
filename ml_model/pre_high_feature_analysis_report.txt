@@ -1,0 +1,248 @@
+Feature Importance Analysis
+===========================
+
+Top 20 Most Important Features:
+                  importance
+roc_std_pre         0.290560
+move_pct_std_pre    0.183992
+roc_max_pre         0.084535
+move_pct_max_pre    0.063303
+volume_max_pre      0.053988
+roc_min_pre         0.046758
+vwap_slope_pre      0.043681
+obv_min_pre         0.037573
+volume_std_pre      0.023091
+stoch_d_max_pre     0.020213
+rsi_max_pre         0.017556
+bb_lower_min_pre    0.008340
+vwap_std_pre        0.007644
+atr_min_pre         0.007538
+obv_std_pre         0.005967
+bb_std_slope_pre    0.005870
+rsi_std_pre         0.005753
+low_min_pre         0.005288
+atr_mean_pre        0.004375
+volume_slope_pre    0.004271
+
+Statistical Comparison of Top 20 Features (Winners vs. Losers)
+-------------------------------------------------------------
+
+Feature: roc_std_pre
+       Winners (Big Drop)  Losers (Small Drop)
+count         4800.000000          4800.000000
+mean             9.910224             4.030898
+std              9.047733             3.295516
+min              0.432077             0.028072
+25%              4.711378             2.012819
+50%              7.398654             3.261755
+75%             11.788110             5.113841
+max            134.136615            46.832023
+
+Feature: move_pct_std_pre
+       Winners (Big Drop)  Losers (Small Drop)
+count         4800.000000         4.800000e+03
+mean            20.253629         7.464548e+00
+std             64.413576         4.293963e+01
+min              0.572080         7.290015e-15
+25%              6.632774         2.623941e+00
+50%             11.007009         4.544548e+00
+75%             19.013583         7.363572e+00
+max           2776.591954         2.582339e+03
+
+Feature: roc_max_pre
+       Winners (Big Drop)  Losers (Small Drop)
+count         4800.000000          4800.000000
+mean            31.266217            12.434975
+std             31.126852            10.228790
+min            -10.699301            -5.140187
+25%             13.739209             5.905101
+50%             23.190796            10.173155
+75%             38.509798            16.256459
+max            644.384750           133.262260
+
+Feature: move_pct_max_pre
+       Winners (Big Drop)  Losers (Small Drop)
+count         4800.000000          4800.000000
+mean           175.394252           110.359611
+std           1329.705332           639.603549
+min             -9.725686            -1.369863
+25%             57.513887            44.545455
+50%             85.000000            54.366812
+75%            140.695134            75.447253
+max          85233.333333         33660.683761
+
+Feature: volume_max_pre
+       Winners (Big Drop)  Losers (Small Drop)
+count        4.800000e+03         4.800000e+03
+mean         1.109807e+06         4.545216e+05
+std          1.593833e+06         8.134892e+05
+min          1.621000e+03         8.000000e+02
+25%          2.266375e+05         7.117275e+04
+50%          5.620510e+05         2.007085e+05
+75%          1.419452e+06         5.262770e+05
+max          3.338181e+07         2.235832e+07
+
+Feature: roc_min_pre
+       Winners (Big Drop)  Losers (Small Drop)
+count         4800.000000          4800.000000
+mean            -2.482047            -1.535248
+std              9.792474             3.659589
+min            -45.000000           -37.551020
+25%             -6.623776            -3.246832
+50%             -2.664156            -1.108693
+75%              1.000545             0.228704
+max            346.511628            30.909091
+
+Feature: vwap_slope_pre
+       Winners (Big Drop)  Losers (Small Drop)
+count         4800.000000          4800.000000
+mean             0.018443             0.009115
+std              0.070507             0.045400
+min             -0.984916            -0.273559
+25%              0.000768             0.000408
+50%              0.004477             0.001828
+75%              0.015030             0.006802
+max              2.733079             2.426828
+
+Feature: obv_min_pre
+       Winners (Big Drop)  Losers (Small Drop)
+count        4.800000e+03         4.800000e+03
+mean         1.914714e+06         2.102161e+06
+std          9.957954e+06         6.749480e+06
+min         -5.166642e+07        -4.070643e+07
+25%         -1.619270e+05         3.567700e+04
+50%          8.978250e+04         4.186200e+05
+75%          1.221434e+06         1.774982e+06
+max          3.134881e+08         1.572470e+08
+
+Feature: volume_std_pre
+       Winners (Big Drop)  Losers (Small Drop)
+count        4.800000e+03         4.800000e+03
+mean         2.870797e+05         1.139279e+05
+std          4.091776e+05         1.904367e+05
+min          4.558466e+02         2.185031e+02
+25%          6.091406e+04         1.845988e+04
+50%          1.477234e+05         5.203186e+04
+75%          3.671467e+05         1.341490e+05
+max          9.143292e+06         4.815785e+06
+
+Feature: stoch_d_max_pre
+       Winners (Big Drop)  Losers (Small Drop)
+count         4800.000000          4800.000000
+mean            90.698674            92.370632
+std             10.038669             8.131266
+min             19.153888            20.094907
+25%             88.034113            89.680496
+50%             93.333333            94.285365
+75%             97.173972            97.760201
+max            100.000000           100.000000
+
+Feature: rsi_max_pre
+       Winners (Big Drop)  Losers (Small Drop)
+count         4800.000000          4800.000000
+mean            81.106087            80.571165
+std             10.631816             9.543340
+min             28.134111            38.461538
+25%             74.830793            74.473665
+50%             81.971129            80.928749
+75%             88.985911            87.456500
+max            100.000000           100.000000
+
+Feature: bb_lower_min_pre
+       Winners (Big Drop)  Losers (Small Drop)
+count         4800.000000          4800.000000
+mean             4.190200             8.797457
+std             11.490709            25.261685
+min             -8.040872             0.132196
+25%              0.798345             1.416337
+50%              1.795942             3.015570
+75%              3.969690             7.243439
+max            339.219072           889.279111
+
+Feature: vwap_std_pre
+       Winners (Big Drop)  Losers (Small Drop)
+count         4800.000000          4800.000000
+mean             0.132526             0.064304
+std              0.430094             0.440105
+min              0.000054             0.000010
+25%              0.011293             0.003810
+50%              0.037101             0.013556
+75%              0.106270             0.044939
+max             16.295879            27.777144
+
+Feature: atr_min_pre
+       Winners (Big Drop)  Losers (Small Drop)
+count         4800.000000          4800.000000
+mean             0.147506             0.101205
+std              0.531767             0.270620
+min              0.000064             0.000100
+25%              0.021032             0.016786
+50%              0.049996             0.038561
+75%              0.125227             0.097071
+max             24.137371             8.352629
+
+Feature: obv_std_pre
+       Winners (Big Drop)  Losers (Small Drop)
+count        4.800000e+03         4.800000e+03
+mean         9.675503e+05         3.864215e+05
+std          1.675481e+06         9.035323e+05
+min          1.649234e+03         5.128834e+02
+25%          1.462881e+05         4.281717e+04
+50%          3.812289e+05         1.348749e+05
+75%          1.119801e+06         3.855572e+05
+max          3.116097e+07         3.437211e+07
+
+Feature: bb_std_slope_pre
+       Winners (Big Drop)  Losers (Small Drop)
+count         4800.000000          4800.000000
+mean             0.008351             0.003425
+std              0.055087             0.030147
+min             -1.371953            -0.530493
+25%             -0.000397            -0.000579
+50%              0.001764             0.000962
+75%              0.007466             0.004158
+max              1.596028             1.137529
+
+Feature: rsi_std_pre
+       Winners (Big Drop)  Losers (Small Drop)
+count         4800.000000          4800.000000
+mean            11.356586            10.828095
+std              4.435803             4.175759
+min              0.705258             2.472542
+25%              8.110280             7.794910
+50%             10.641218            10.094738
+75%             13.914189            13.046850
+max             36.478045            36.215306
+
+Feature: low_min_pre
+       Winners (Big Drop)  Losers (Small Drop)
+count         4800.000000          4800.000000
+mean             4.816877             9.206942
+std             12.895999            26.151995
+min              0.159900             0.297200
+25%              0.932150             1.500000
+50%              2.090000             3.200100
+75%              4.600000             7.675000
+max            369.020000           893.000100
+
+Feature: atr_mean_pre
+       Winners (Big Drop)  Losers (Small Drop)
+count         4800.000000          4800.000000
+mean             0.218713             0.140923
+std              0.709066             0.385987
+min              0.001967             0.000877
+25%              0.035468             0.025620
+50%              0.081252             0.057265
+75%              0.189499             0.138182
+max             29.059396            14.881858
+
+Feature: volume_slope_pre
+       Winners (Big Drop)  Losers (Small Drop)
+count        4.800000e+03          4800.000000
+mean         2.148865e+04          6320.300235
+std          4.471074e+04         18301.840428
+min         -1.747920e+05       -166855.693233
+25%          1.711450e+03            32.641729
+50%          8.816104e+03          1948.946241
+75%          2.646626e+04          7705.515789
+max          1.248595e+06        330976.579699

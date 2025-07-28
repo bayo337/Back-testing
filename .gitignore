@@ -1,0 +1,79 @@
+# Environment variables and API keys
+.env
+polygon.env
+*.env
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual environments
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Data files (large files that shouldn't be in git)
+historical-DATA/
+daily-historical-DATA/
+*.csv
+*.json
+*.parquet
+
+# Generated outputs
+analysis_charts/
+GAP_FADE/equity_charts/
+GAP_FADE/reports_txt/
+GAP_FADE/trade_logs_csv/
+GAP_FADE/climactic_reversal_test/
+GAP_FADE/acoutposition back test/
+
+# Logs
+*.log
+logs/
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# pyenv
+.python-version
+
+# Temporary files
+*.tmp
+*.temp 

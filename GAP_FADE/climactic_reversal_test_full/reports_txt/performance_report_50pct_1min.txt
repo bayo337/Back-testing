@@ -1,0 +1,40 @@
+
+======================================================
+     Strategy Report (50% Gain, 1min)
+======================================================
+NOTE: A 5% handicap has been applied to all gross profits.
+      Position size is dynamic, based on a fixed risk of $100.00 per trade.
+
+--- Account Summary ---
+Initial Balance: $2,500.00
+Final Balance:   $6,276.00
+Net Profit:      $3,776.00
+Total Return:    151.04%
+Lowest Value:    $1,369.38
+
+--- Overall Performance ---
+Total Trades: 740
+Win Rate: 34.19%
+Profit Factor: 1.16
+Reward/Risk Ratio: 2.21:1
+Sharpe Ratio (annualized): 0.77
+Avg. Max R/R Achieved: 1.16R
+------------------------------------------------------
+            |    Dollar Value    |      R-Value
+------------------------------------------------------
+Net Profit  | $       3,776.00 |        37.76R
+Avg. Win    | $         108.37 |         1.08R
+Avg. Loss   | $          48.95 |         0.49R
+Expectancy  | $           4.84 |         0.05R
+------------------------------------------------------
+
+--- Key Metrics ---
+Max Drawdown: $1,935.97 (77.44% of initial balance)
+Max Consecutive Wins: 7
+Max Consecutive Losses: 22
+
+--- R/R Success Rates (% of all trades) ---
+Achieved >= 3R:   6.62%
+Achieved >= 4R:   3.65%
+
+======================= End of Report =======================
